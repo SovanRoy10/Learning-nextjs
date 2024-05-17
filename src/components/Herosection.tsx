@@ -11,13 +11,21 @@ export default function Herosection() {
       />
       <div className="p-4 relative z-10 w-full text-center">
         <h1 className="mt-20 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
-          Master the art of music
+          ADHYAYANA
         </h1>
-        <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto">
-          Dive into our comprehensive music courses and transform your musical
-          journey today. Whether you&apos;re a beginner or looking to refine
-          your skills, join us to unlock your true potential.
+        <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-xl mx-auto">
+          Master the art of coding with hands on live coding session practical
         </p>
+
+        <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto">
+          250+ Students 10+ Years Of Academic & Industry Experience Online plus
+          Offline School & College Students
+        </p>
+
+        <p className="mt-4 font-semibold text-base md:text-2xl text-neutral-300 max-w-lg mx-auto">
+         We Make Our Weakest The Best!!
+        </p>
+
         <div className="mt-4">
           <Link href={"/courses"}>
             <Button
