@@ -36,7 +36,7 @@ export function Navbar({ className }: { className?: string }) {
           ></MenuItem>
         </Link>
 
-        <Link href="/">
+        <Link href="/galleria">
           <MenuItem
             setActive={setActive}
             active={active}

@@ -6,7 +6,8 @@
       "slug": "c-programming-fundamentals",
       "description": "Learn the basics of C programming, covering syntax, data types, and basic algorithms.",
       "price": 99.99,
-      "instructor": "John Doe",
+      "instructor": "Pramit Maity",
+      "instructorImage": "/instructors/pramit.jpg",
       "isFeatured": true,
       "image": "/courses/c.png"
     },
@@ -16,7 +17,8 @@
       "slug": "data-structures-algorithms",
       "description": "Understand data structures and algorithms with hands-on examples and practical applications.",
       "price": 109.99,
-      "instructor": "Jane Smith",
+      "instructor": "Pramit Maity",
+      "instructorImage": "/instructors/pramit.jpg",
       "isFeatured": true,
       "image": "/courses/dsa.jpg"
     },
@@ -26,7 +28,8 @@
       "slug": "sql-for-beginners",
       "description": "Start your journey with SQL, learning to query databases and manage data effectively.",
       "price": 119.99,
-      "instructor": "Emily Johnson",
+      "instructor": "Samik Dey",
+      "instructorImage": "/instructors/samik.jpg",
       "isFeatured": false,
       "image": "/courses/sql.jpg"
     },
@@ -36,7 +39,8 @@
       "slug": "core-java-fundamentals",
       "description": "Learn the essentials of Java programming, from basic syntax to object-oriented concepts.",
       "price": 129.99,
-      "instructor": "Mike Brown",
+      "instructor": "Samik Dey",
+      "instructorImage": "/instructors/samik.jpg",
       "isFeatured": true,
       "image": "/courses/java.jpg"
     },
@@ -46,7 +50,8 @@
       "slug": "java-enterprise-edition",
       "description": "Master full stack Java development with a comprehensive course on Java EE.",
       "price": 139.99,
-      "instructor": "Chris Davis",
+      "instructor": "Samik Dey",
+      "instructorImage": "/instructors/samik.jpg",
       "isFeatured": false,
       "image": "/courses/java_ee.png"
     },
@@ -56,9 +61,11 @@
       "slug": "python-programming",
       "description": "Dive into Python programming, covering basic to advanced topics in this versatile language.",
       "price": 149.99,
-      "instructor": "Alex Wilson",
+      "instructor": "Pramit Maity",
+      "instructorImage": "/instructors/pramit.jpg",
       "isFeatured": false,
       "image": "/courses/py.png"
     }
   ]
 }
+

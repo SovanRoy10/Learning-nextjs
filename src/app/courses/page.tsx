@@ -42,16 +42,23 @@ export default function page() {
                 <CardItem
                   translateZ={20}
                   as="button"
-                  className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+                  className="px-4 py-2 rounded-xl font-normal dark:text-white flex gap-2 items-center"
                 >
-                  Try now →
+                  <Image
+                    src={course.instructorImage}
+                    width={100}
+                    height={100}
+                    alt="image of instructor"
+                    className="w-12 h-12 object-cover rounded-full"
+                  />
+                  <p className="md:text-base text-xs">{course.instructor}</p>
                 </CardItem>
                 <CardItem
                   translateZ={20}
                   as="button"
                   className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
                 >
-                  Sign up
+                  <Link href={`/mission/${course.slug}`}>Learn More</Link>
                 </CardItem>
               </div>
             </CardBody>

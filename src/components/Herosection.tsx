@@ -23,7 +23,7 @@ export default function Herosection() {
         </p>
 
         <p className="mt-4 font-semibold text-base md:text-2xl text-neutral-300 max-w-lg mx-auto">
-         We Make Our Weakest The Best!!
+          We Make Our Weakest The Best!!
         </p>
 
         <div className="mt-4">
