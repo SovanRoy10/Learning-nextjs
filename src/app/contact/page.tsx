@@ -7,7 +7,7 @@ import { mailer } from "../../../actions/mailer";
 import toast from "react-hot-toast";
 
 function CodingSchoolContactUs() {
-  const [state, formAction] = useFormState(mailer, { message: null });
+  const [state, formAction] = useFormState(mailer, { message: '' });
   const [formData, setFormData] = useState({
     senderEmail: "",
     message: "",
@@ -21,8 +21,7 @@ function CodingSchoolContactUs() {
     }));
   };
 
-  const handleSubmitForm = async (e: FormEvent) => {
-    e.preventDefault();
+  const handleSubmitForm = async () => {
     try {
       await formAction(formData);
       toast.success("Message sent successfully");
