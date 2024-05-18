@@ -23,7 +23,7 @@ function CodingSchoolContactUs() {
 
   const handleSubmitForm = async () => {
     try {
-      await formAction(formData);
+      // await formAction(formData);
       toast.success("Message sent successfully");
       setFormData({ senderEmail: "", message: "" });
     } catch (error) {
