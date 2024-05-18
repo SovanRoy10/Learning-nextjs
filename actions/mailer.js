@@ -7,7 +7,7 @@ function isInvalidText(text) {
   return !text || text.trim() === "";
 }
 
-export const mailer = async (prevState, formData) => {
+export const mailer = async (formData) => {
   try {
     // console.log(formData)
     const data = {

@@ -2,18 +2,18 @@
 
 import React, { FormEvent, useState } from "react";
 import { BackgroundBeams } from "@/components/ui/background-beams";
-import { useFormState } from "react-dom";
 import { mailer } from "../../../actions/mailer";
 import toast from "react-hot-toast";
 
 function CodingSchoolContactUs() {
-  const [state, formAction] = useFormState(mailer, { message: '' });
   const [formData, setFormData] = useState({
     senderEmail: "",
     message: "",
   });
 
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleInputChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     const { name, value } = e.target;
     setFormData((prevFormData) => ({
       ...prevFormData,
@@ -21,9 +21,11 @@ function CodingSchoolContactUs() {
     }));
   };
 
-  const handleSubmitForm = async () => {
+  const handleSubmitForm = async (e: FormEvent) => {
+    e.preventDefault();
     try {
-      // await formAction(formData);
+      // Adjust this according to how mailer is supposed to be called
+      await mailer(formData);
       toast.success("Message sent successfully");
       setFormData({ senderEmail: "", message: "" });
     } catch (error) {
