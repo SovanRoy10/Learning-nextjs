@@ -41,7 +41,7 @@ export default function Instructors() {
           Meet Our Instructors
         </h2>
         <p className="text-base md:text-lg text-white text-center mb-4">
-          Discover the talented professionals who will guide your musical
+          Discover the talented professionals who will guide your coding
           journey
         </p>
         <div className="flex flex-row items-center justify-center mb-10 w-full">
