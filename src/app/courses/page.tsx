@@ -10,7 +10,7 @@ export default function page() {
   return (
     <div className="min-h-screen bg-black py-12 pt-36">
       <h1 className="text-lg md:text-7xl text-center font-sans font-bold mb-8 text-white">
-        All Courses {courses.length}
+        All {courses.length} Courses
       </h1>
       <div className="flex flex-wrap justify-center">
         {courses.map((course) => (
@@ -34,7 +34,7 @@ export default function page() {
                   src={course.image}
                   height="1000"
                   width="1000"
-                  className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+                  className="h-60 w-full rounded-xl group-hover/card:shadow-xl"
                   alt={course.title}
                 />
               </CardItem>
